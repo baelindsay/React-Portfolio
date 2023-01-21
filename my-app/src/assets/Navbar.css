@@ -1,0 +1,12 @@
+.navbar li {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 25px;
+    white-space: nowrap;
+    list-style-type: none;
+    display: inline;
+}
+
+:hover .navbar li {
+    cursor: pointer
+}
