@@ -1,3 +1,24 @@
+:root {
+    --lavender-gray: #c8bfc7ff;
+    --morning-blue: #a1ad9fff;
+    --russian-green: #7a9b76ff;
+    --middle-grey: #8a7e72ff;
+    --caput-mortuum: #5a2328ff;
+    --smoky-black: #090302ff;
+}
+
+* {
+    margin: 7px;
+    
+}
+ body {
+    display: flex;
+    flex-direction: column;
+ }
+ul {
+    padding-top: 12px;
+}
+
 .navbar li {
     font-size: 30px;
     text-decoration: none;
@@ -9,4 +30,12 @@
 
 :hover .navbar li {
     cursor: pointer
+}
+
+.navbar {
+    background: #BEEE62;
+    height: 60px;
+    display: inline flex;
+    text-align: right;
+    margin-top: 0px;
 }
