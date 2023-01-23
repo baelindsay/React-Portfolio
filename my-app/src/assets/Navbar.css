@@ -22,13 +22,18 @@
  .nav {
     background-color: #333;
     font-family: 'Lora', serif;
+    font-size: 1.2rem;
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     gap: 2rem;
-    padding: .25rem;
+    padding: 0.15rem;
  }
+
+.site-title {
+    font-size: 1.8rem;
+}
 
 .nav ul {
     padding: 0;
@@ -50,8 +55,6 @@
 .nav li:hover {
     background-color: #777;
 }
-
-
 
 ul {
     padding-top: 12px;
@@ -81,6 +84,16 @@ ul {
     text-align: right;
     margin-top: 0px;
 }
+
+/* .page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+    flex:1;
+} */
 /* @keyframes background-pan {
     from {
         background-position: 0% center;

@@ -2,7 +2,7 @@
 import '../src/assets/App.css';
 // import Header from './components/Header';
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import About from "./components/pages/About"
 import Portfolio from "./components/pages/Portfolio"
 import Contact from "./components/pages/Contact"
@@ -19,45 +19,28 @@ import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <>
-    <Navbar />
-      <Routes>
-        <Route path="/aboutme" element={ <About />} />
-        <Route path="/portfolio" element={ <Portfolio />} />
-        <Route path="/contact" element={ <Contact />} /> 
-        <Route path="/resume" element={ <Resume />} />
-      </Routes>
-    {/* <Container /> */}
-    {/* <Footer /> */}
-    </>
+    
+    <div className='page-container'>
+      <div className='content-wrap'>
+        <Navbar />
+          <Routes>
+            <Route path="/aboutme" element={ <About />} />
+            <Route path="/portfolio" element={ <Portfolio />} />
+            <Route path="/contact" element={ <Contact />} /> 
+            <Route path="/resume" element={ <Resume />} />
+          </Routes>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <Footer />
+        </div>
+    </div>
 
   );
 }
 
-// function App() {
-//   let component
-//   switch (window.location.pathname) {
-//     case "/":
-//       component = <About />
-//       break;
-
-//       default:
-//         component = <About />
-//       break;
-
-//     case "/portfolio":
-//       component = <Portfolio />
-//       break;
-
-//   }
-
-//   return (
-//   <>
-//     <Navbar />
-//     {component}
-//   </>
-//   );
-// };
 export default App;
 
     // case "/contact":

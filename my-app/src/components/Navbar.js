@@ -27,7 +27,8 @@ function Navbar() {
     
           <li> <CustomLink to="/resume"> Resume </CustomLink> </li>
         </ul>
-        </nav></>
+        </nav>
+    </>
   )
 }
 
